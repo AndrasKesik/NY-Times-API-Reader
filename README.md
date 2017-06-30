@@ -1,7 +1,8 @@
 New York Times Articles Reader
 -------------
 
-This application is a reader for the New York Times Most Popular Articles from the last 7 days 
+This application is a reader for the New York Times Most Popular Articles from the last 7 days.
+It works in landscape mode too.
 
 > **Usage:**
 
