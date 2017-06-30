@@ -38,15 +38,22 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMI-XO-IOT">
-                        <rect key="frame" x="353" y="207" width="100" height="16"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMI-XO-IOT">
+                        <rect key="frame" x="373" y="207" width="80" height="16"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="100" id="O98-cO-WJp"/>
+                            <constraint firstAttribute="width" constant="80" id="O98-cO-WJp"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_event" translatesAutoresizingMaskIntoConstraints="NO" id="FJV-vF-FFr">
+                        <rect key="frame" x="358" y="207.5" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Hnx-Rf-dHU"/>
+                            <constraint firstAttribute="width" constant="15" id="wuX-Fh-Qfe"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailingMargin" secondItem="zGv-Aq-5ej" secondAttribute="trailing" constant="8" id="4JC-lJ-Xrz"/>
@@ -57,6 +64,8 @@
                     <constraint firstItem="CMI-XO-IOT" firstAttribute="top" secondItem="g5A-4X-GQq" secondAttribute="bottom" id="Fpr-83-Ub5"/>
                     <constraint firstItem="zGv-Aq-5ej" firstAttribute="leading" secondItem="EtF-ui-FTE" secondAttribute="trailing" constant="8" id="Jzd-Un-Vpy"/>
                     <constraint firstItem="zGv-Aq-5ej" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="PoY-ze-Xrr"/>
+                    <constraint firstItem="CMI-XO-IOT" firstAttribute="leading" secondItem="FJV-vF-FFr" secondAttribute="trailing" id="UAH-W7-5yl"/>
+                    <constraint firstItem="FJV-vF-FFr" firstAttribute="centerY" secondItem="CMI-XO-IOT" secondAttribute="centerY" id="gQA-Xu-DGt"/>
                     <constraint firstItem="g5A-4X-GQq" firstAttribute="top" secondItem="zGv-Aq-5ej" secondAttribute="bottom" constant="8" id="jxU-Qp-Kkh"/>
                     <constraint firstItem="CMI-XO-IOT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="g5A-4X-GQq" secondAttribute="leading" id="kjS-b2-FWt"/>
                     <constraint firstAttribute="bottomMargin" secondItem="CMI-XO-IOT" secondAttribute="bottom" id="l2X-cD-Rdl"/>
@@ -74,5 +83,6 @@
     </objects>
     <resources>
         <image name="circle-512" width="512" height="512"/>
+        <image name="ic_event" width="24" height="24"/>
     </resources>
 </document>

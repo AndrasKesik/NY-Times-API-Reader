@@ -18,7 +18,7 @@ struct NYTApiRequestElements {
     let baseURL: String = "http://api.nytimes.com/svc/mostpopular/v2/mostviewed"
     let section: String
     let period: String
-    let api_key: String = ""  // Insert your API key here between the quotation marks
+    let api_key: String = "03ffe03b643744679ebba1113d324ce8"  // Insert your API key here between the quotation marks
     let completeURL: URL?
     
     init(section: String, period: ResultsPeriod) {

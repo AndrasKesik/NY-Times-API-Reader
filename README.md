@@ -6,7 +6,9 @@ This application is a reader for the New York Times Most Popular Articles from t
 > **Usage:**
 
 > - Clone the repository to a folder you want.
-> - Open the project with Xcode, change the dev team and the bundle id.
+> - Open the project with Xcode
+> - Change the bundle id in project settings
+> - Change the development team in project settings
 > - Register for an API key at https://developer.nytimes.com/
 > - Insert your API key into the ArticlesTableViewController.swift file (line 21)
 > - Run an the app. 
